@@ -11,7 +11,7 @@ def convert_dates(dates):
     day_number=dt.date.weekday(dates)
     days=['Monday','Tuesday','Wednesday','Thursday','Saturday',"Sunday"]
     #returning the actual day of the weekly
-    day=days[daynumber]
+    day=days[day_number]
 
     return day
 
